@@ -58,7 +58,7 @@ On a clean Ubuntu 22.04 LTS installation, the following sequence of commands sho
 
 ```bash
 sudo apt-get update
-sudo apt-get install llvm-12-dev clang-12 libpng-dev g++ haskell-platform haskell-stack pkg-config
+sudo apt-get install libc++abi-dev libstdc++-12-dev llvm-12-dev clang-12 libpng-dev g++ haskell-platform haskell-stack pkg-config
 wget https://github.com/google-research/dex-lang/archive/refs/heads/main.zip
 unzip main.zip
 cd dex-lang-main
